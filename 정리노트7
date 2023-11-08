@@ -20,3 +20,7 @@ void Swap(int a, int b);
 	a = b;
 	b = temp;
 }
+결과 값이 바뀌지 않고 그대로 출력되었는데, 왜 그런지 대화해보자.
+
+인자를 값으로 전달(call by value)
+인자를 주소로 전달(call by reference)
